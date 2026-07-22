@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Custom Project Rules: DiffDock Scale Validation ---
+
+# External models, weights and repositories
+DiffDock/
+
+# Biological input data and temporary inference maps
+data_analysis/
+
+# Docking simulation output poses
+results/
+
+# Windows/WSL specific metadata
+*Zone.Identifier*.npy

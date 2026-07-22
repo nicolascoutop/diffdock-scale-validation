@@ -1,0 +1,27 @@
+name: diffdock
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=1.11.0
+  - pytorch-cuda=11.7
+  - pyg
+  - pytorch-scatter
+  - pytorch-sparse
+  - pytorch-cluster
+  - pyyaml
+  - scipy
+  - networkx
+  - biopython
+  - rdkit
+  - pandas
+  - pip
+  - pip:
+    - e3nn
+    - spyrmsd
+    - biopandas
+    - fair-esm
