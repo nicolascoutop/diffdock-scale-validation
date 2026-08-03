@@ -93,8 +93,6 @@ def run_diffdock(csv_path, out_dir, diffdock_script, inference_steps, samples,
             print("[WARN] GPU requested but nvidia-smi does not detect any. "
                   "inference.py will internally fallback to CPU if CUDA is not found.")
         compute_device = "GPU (forced, respecting scheduler's CUDA_VISIBLE_DEVICES)"
-        # We do not touch CUDA_VISIBLE_DEVICES: if we are in a SLURM/PBS job,
-        # the scheduler already sets it with the GPU(s) assigned to this job.
     else:
         compute_device = "GPU (autodetected)" if detect_gpu() else "CPU (autodetected)"
 
