@@ -230,3 +230,4 @@ results/
 
 # Windows/WSL specific metadata
 *Zone.Identifier*.npy
+*.npy
