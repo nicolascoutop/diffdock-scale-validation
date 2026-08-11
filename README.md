@@ -93,8 +93,6 @@ The binding pocket (cyan) and predicted ligand pose (magenta) are rendered inter
 
 ![3D visualization of the streptavidin–biotin complex. Ligand (magenta) docked into the binding pocket (cyan residues within 5Å).](assets/1STP_BTN_rank1_pose.png)
 
-> *Take a screenshot of the `py3Dmol` viewer from `result_analysis.ipynb`, save it as `assets/1STP_BTN_rank1_pose.png`, and commit it to the repo. The image will render here automatically.*
-
 ---
 
 ## Installation
