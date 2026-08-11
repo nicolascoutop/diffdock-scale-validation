@@ -231,3 +231,9 @@ results/
 # Windows/WSL specific metadata
 *Zone.Identifier*.npy
 *.npy
+data_analysis/proteins/*
+data_analysis/ligands/*
+data_analysis/proteins/*
+!data_analysis/proteins/.gitkeep
+data_analysis/ligands/*
+!data_analysis/ligands/.gitkeep
