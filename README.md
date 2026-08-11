@@ -28,9 +28,6 @@ diffdock-scale-validation/
 ├── core_pipeline/
 │   └── run_pipeline.py        # Python orchestrator: input validation, CSV mapping, subprocess dispatch
 │
-├── data/
-│   └── inference_map.csv      # Auto-generated protein–ligand cross-docking manifest
-│
 ├── data_analysis/
 │   ├── proteins/
 │   │   └── 1STP_clean.pdb     # Receptor structure (HETATM-stripped for blind docking)
@@ -89,9 +86,9 @@ The pipeline successfully runs end-to-end on local CPU (reduced `--steps`/`--sam
 
 *RMSD computed with `spyrmsd` (symmetry-corrected, no re-alignment — both structures share the protein coordinate frame). The reference pose is extracted from the original unmodified PDB deposition, with bond orders restored from a validated SMILES template.*
 
-The binding pocket (cyan) and predicted ligand pose (magenta) are rendered interactively in `result_analysis.ipynb` using `py3Dmol`, with residues selected at the full-residue level within 5 Å of the ligand.
-
 ![3D visualization of the streptavidin–biotin complex. Ligand (magenta) docked into the binding pocket (cyan residues within 5Å).](assets/1STP_BTN_rank1_pose.png)
+
+> *Figure 1. The binding pocket (cyan) and predicted ligand pose (magenta) are rendered interactively in `result_analysis.ipynb` using `py3Dmol`, with residues selected at the full-residue level within 5 Å of the ligand.*
 
 ---
 
