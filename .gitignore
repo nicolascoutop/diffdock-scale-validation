@@ -239,3 +239,5 @@ data_analysis/ligands/*
 !data_analysis/ligands/.gitkeep
 data/
 data/
+results/*
+!results/.gitkeep
